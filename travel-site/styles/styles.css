@@ -1,0 +1,121 @@
+*{
+  margin:0;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 60px;
+}
+
+ul {
+	background-color: rgb(250, 146, 63);
+	list-style: none;
+  display: flex;
+  
+}
+
+li {
+	margin-left: 20px;
+  z-index:2;
+  color: #f5f39d;
+  font-weight: bold;
+}
+header a {
+  color: #f5f39d;
+  text-decoration: none;
+}
+
+header a:hover{
+  background-color: #f5f39d;
+  color: rgb(0, 0, 0);
+}
+
+.logo {
+	font-family: "Oleo Script", sans-serif;
+	padding: 10px;
+	color: #f5f39d;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px rgb(0, 0, 0);
+	font-size: 50px;
+	text-transform: uppercase;
+  z-index:2;
+}
+
+.hero {
+  height: 800px;
+  background-image: url("../images/ocean.jpg");
+  background-position: center;
+  background-size: cover;
+  position:relative;
+  margin-top:-120px;
+}
+
+.hero-content{
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 100px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+  border-radius: 8px;
+}
+
+.hero-content h1{
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+  margin:0;
+}
+
+.hero-content p{
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 300;
+  margin-bottom:32px;
+}
+
+.hero-content a{
+  text-decoration: none;
+  background-color: rgb(255, 251, 0);
+  padding: 12px 24px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+.hero-content a:hover {
+  background-color: rgb(255, 238, 0);
+}
+
+.highlights{
+  display: flex;
+  width:100%;
+}
+
+.destinations {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.destination {
+  margin: 0 20px;
+}
+
+.destination img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
